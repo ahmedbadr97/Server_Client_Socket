@@ -38,3 +38,7 @@ players
 The game ends when all players but one are dead.
 
 When a player dies, all players are informed by the server.
+There are two CLient Versions  
+  1. Cli version
+  2. Gui javafx8 version
+  
