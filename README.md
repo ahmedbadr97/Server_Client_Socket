@@ -1,4 +1,4 @@
-# java Server , Client Socket
+# java multithread Server , Client Socket
 ## Fatma and Call of Duty <br>
 Instructions
 After the recent publishing of the game Call of Duty: Modern Warfare 3, a first-person shooting game, Fatma became jealous of the developers who created this game and decided to create her own version of this game Call of Duty: Fatma Warfare. Unfortunately, Fatma doesn’t have knowledge of game engines, so she decided to make the game Command-Line Interface (CLI) using Java, the only programming language she knows.
