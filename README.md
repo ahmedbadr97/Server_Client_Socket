@@ -41,4 +41,21 @@ When a player dies, all players are informed by the server.
 There are two CLient Versions  
   1. Cli version
   2. Gui javafx8 version
+ -------------------------------------------------
+ ### Server side  
+ start the server to responde to client requests  
+  1. user login  
+  . check if the username already exsits it will send a string message to the client and end the connection with the client  
+  . else it add the username to the server datastructure with score 0 and send to the client message "you have successfully logged in" and prints the     score board to the client
+  2. user starts the game
+  . user will have two commands to send to the server 
+    1.shoot <username> --> shoot username already exists and username != his name 
+      .if the <username> alive Server will send a message to all active users that <username> is dead and it will decrease <username> score by 1 and        increase client username by one
+      . if <username> is already dead it will decrease the sending user score by one
+  3. serve will continoue running till there is only one player alive which is the winner at this time the server will send to all active client that   the game is finished and it will send the score board to them and close the connection with all clients and shutdown the server 
+  ### Client side
+  1.Cli versrion
+    after the client  logged in it will have a listener for the server messsages to print it to the console and listener to input from console to         send it to the client  
+    client program will shutdown when the server sends to it a string contains 'quit' or connection is lost
+    2.players 
   
