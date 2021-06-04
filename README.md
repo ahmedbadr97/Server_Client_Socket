@@ -5,7 +5,7 @@ After the recent publishing of the game Call of Duty: Modern Warfare 3, a first-
 
 The game she wants to create is simple:
 
-You sign up with your username on the main server using the login <username> command, e.g.
+You sign up with your username on the main server using the login \<username\> command, e.g.
 login ahmed
 
 If the username is not taken, you enter the game
