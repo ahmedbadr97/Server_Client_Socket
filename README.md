@@ -50,7 +50,7 @@ There are two CLient Versions
   2. user starts the game
   . user will have two commands to send to the server  
     1. shoot \<username\> --> shoot username already exists and username != his name 
-      .if the <username> alive Server will send a message to all active users that <username> is dead and it will decrease \<username\> score by 1          and increase client username by one
+      . if the \<username\> alive Server will send a message to all active users that <username> is dead and it will decrease \<username\> score by 1          and increase client username by one  
       . if \<username\> is already dead it will decrease the sending user score by one
     2. players --> the server will reply to the client by string has the scoreboard
   3. serve will continoue running till there is only one player alive which is the winner at this time the server will send to all active client that   the game is finished and it will send the score board to them and close the connection with all clients and shutdown the server 
