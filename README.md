@@ -54,8 +54,10 @@ There are two CLient Versions
       . if <username> is already dead it will decrease the sending user score by one
   3. serve will continoue running till there is only one player alive which is the winner at this time the server will send to all active client that   the game is finished and it will send the score board to them and close the connection with all clients and shutdown the server 
   ### Client side
-  1.Cli versrion
+  1. Cli versrion
     after the client  logged in it will have a listener for the server messsages to print it to the console and listener to input from console to         send it to the client  
     client program will shutdown when the server sends to it a string contains 'quit' or connection is lost
     2.players 
+  2. Gui version
+    it will have a textArea to recive server messages in it and a textfield to send a message to the server and send button after the game is             finished you wont be able to send a message to the server as the textfield will be disabled and the button you will have access to the textarea       that have the server messages to check your score 
   
